@@ -31,11 +31,12 @@ describe("meal.js", function() {
       assert.equal(tacoItem, "Delicious Taco");
     });
   });
-
+//-----------------------------------------------
   describe("createMenuItem", function() {
     it.skip("should be a function", function () {
       assert.isFunction(createMenuItem);
     });
+    
 
     it.skip("should create a menu item object", function() {
       var menuItemName = nameMenuItem("French Toast");
@@ -46,7 +47,7 @@ describe("meal.js", function() {
       assert.equal(menuItem.type, "breakfast");
     });
   });
-
+//------------------------------------
   describe("addIngredients", function() {
     it.skip("should be a function", function () {
       assert.isFunction(addIngredients);
@@ -85,7 +86,7 @@ describe("meal.js", function() {
   })
 
   describe("formatPrice", function() {
-    it.skip("should be a function", function () {
+    it("should be a function", function () {
       assert.isFunction(formatPrice);
     });
 
@@ -109,7 +110,7 @@ describe("meal.js", function() {
   });
 
   describe("decreasePrice", function() {
-    it.skip("should be a function", function () {
+    it("should be a function", function () {
       assert.isFunction(decreasePrice);
     });
 

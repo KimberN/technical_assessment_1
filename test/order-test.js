@@ -1,3 +1,6 @@
+//there is no use in trying as I don't understand how to do these tests. I had the pre-test to work with 
+//but I couldn't get that either. for me i would lose track going back and forth between file and test_file
+//i'm sorry :-(
 var chai = require("chai");
 var assert = chai.assert;
 
