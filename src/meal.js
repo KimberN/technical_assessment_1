@@ -22,14 +22,14 @@ ingredients.push(cheese,peppers,onions)
   }
   
     //--------
-function formatPrice(){
+function formatPrice(){git
   // it should add a dollar sign symbol to item
   price = 10.99
   newPrice = ("$" + price)
   //two different types...
 
 }
-//I cannot do anything :-(----------------------------------------------
+// :-(----------------------------------------------
 
       //-------------------------------------
 function decreasePrice(price, newPrice){
